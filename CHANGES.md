@@ -7,5 +7,5 @@ Recently completed and planned work is tracked here.
 ## [0.1.21](.)
 - Updated `hashicorp/aws` provider
 
-## [0.1.22-1000](.)
+## [0.1.22-s3d-1001](.)
 - Added `terraform.tf`
