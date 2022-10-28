@@ -13,3 +13,6 @@ Recently completed and planned work is tracked here.
 - Updated `aws` provider
 - Updated `sg_egress` module
 - Updated `sg_ingress` module
+
+## [0.1.24-1000](.)
+- Added `s3d-flow-json` in `changes` module
