@@ -59,7 +59,7 @@ module "sg_egress" {
 }
 
 module "sg_ingress" {
-  source = "github.com/s3d-club/terraform-aws-sg_ingress_ssh?ref=0.1.10-s3d-1001"
+  source = "github.com/s3d-club/terraform-aws-sg_ingress_ssh?ref=0.1.10-s3d-1002"
 
   cidr        = var.ssh_cidrs
   cidr6       = var.ssh_cidr6s
