@@ -10,6 +10,7 @@ variable "ami_id" {
 
 variable "ami_suffix" {
   default = "arm64-gp2"
+  type    = string
 
   description = <<-EOT
     an AMI suffix that is used to find an ami when ami_id is null.
@@ -84,7 +85,7 @@ variable "name_prefix" {
 }
 
 variable "setup_ref" {
-  default = "v0.1.13" # from dev-setup
+  default = "v0.1.14" # from dev-setup
   type    = string
 
   description = <<-EOT
