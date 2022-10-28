@@ -14,5 +14,5 @@ Recently completed and planned work is tracked here.
 - Updated `sg_egress` module
 - Updated `sg_ingress` module
 
-## [0.1.24-s3d-1010](.)
+## [0.1.24-s3d-1011](.)
 - Added `s3d-flow-json` in `changes` module
