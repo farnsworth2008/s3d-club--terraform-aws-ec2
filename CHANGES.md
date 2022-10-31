@@ -16,5 +16,5 @@ Recently completed and planned work is tracked here.
 - Updated `sg_egress` module
 - Updated `sg_ingress` module
 
-## [0.1.27-1000](.)
-- Changed to use `-*` as suffix for pre-release versions
+## [0.1.27-s3d-1001](.)
+- Changed to use `-x` as suffix for pre-release versions
