@@ -49,7 +49,7 @@ module "name" {
 }
 
 module "sg_egress" {
-  source = "github.com/s3d-club/terraform-aws-sg_egress_open?ref=0.1.15-s3d-1001"
+  source = "github.com/s3d-club/terraform-aws-sg_egress_open?ref=v0.1.15"
 
   cidrs       = var.egress_cidrs
   cidr6s      = var.egress_cidr6s
