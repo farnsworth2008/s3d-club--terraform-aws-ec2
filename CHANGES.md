@@ -18,3 +18,7 @@ Recently completed and planned work is tracked here.
 
 ## [0.1.27](.)
 - Changed to use `-x` as suffix for pre-release versions
+
+## [0.1.28-1000](.)
+- Fixed sorting of resources in Terraform files
+- Upgraded `setup_ref` for new setup script version
