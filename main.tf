@@ -35,7 +35,7 @@ locals {
 }
 
 module "name" {
-  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.15"
+  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.16"
 
   context      = join("-", [var.name_prefix, var.template, var.setup_ref])
   disable_date = true
@@ -49,7 +49,7 @@ module "name" {
 }
 
 module "sg_egress" {
-  source = "github.com/s3d-club/terraform-aws-sg_egress_open?ref=v0.1.15"
+  source = "github.com/s3d-club/terraform-aws-sg_egress_open?ref=0.1.16-1000"
 
   cidrs       = var.egress_cidrs
   cidr6s      = var.egress_cidr6s
