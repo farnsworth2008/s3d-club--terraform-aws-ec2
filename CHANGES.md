@@ -22,5 +22,5 @@ This file describes the project history as it relates to tagged versions.
 - Updated `terraform` version
 - Updated `time` provider
 
-## [0.1.30-1000](.)
+## [0.1.30-s3d-1001](.)
 - Changed to `$HOME/user-data.log`
